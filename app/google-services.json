@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178124225842",
+    "project_id": "one-minute-dd52d",
+    "storage_bucket": "one-minute-dd52d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178124225842:android:5200b7219396bbc99eab2b",
+        "android_client_info": {
+          "package_name": "com.example.oneminute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR4QntDxvtKEsvabjuLa9H_x5inQrfRZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

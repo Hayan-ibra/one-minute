@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_five"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_five"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OneMinute"
+        tools:targetApi="31" >
+        <activity
+            android:name=".addPoints.ShowRequests"
+            android:exported="false" />
+        <activity
+            android:name=".addPoints.AddPointsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tourism.SingleDestination"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hotels.DisplayRoomImages"
+            android:exported="false" />
+        <activity
+            android:name=".hotels.SingleRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hotels.SingleHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.SingleStoreItemList"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.SingleStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.SingleItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.ShopItemLists"
+            android:exported="false" />
+        <activity
+            android:name=".restaurants.FoodSingleItem"
+            android:exported="false" />
+        <activity
+            android:name=".restaurants.RestaurantSingleProfile"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".signing.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".signing.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

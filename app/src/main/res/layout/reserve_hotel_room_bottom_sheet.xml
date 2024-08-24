@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="please Choose days you want to reserve :"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="center_horizontal"
+
+        >
+
+        <ImageView
+
+            android:id="@+id/reserve_bottom_sheet_button_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/sh05"
+            android:padding="3dp"
+            android:src="@drawable/minus"
+            android:tint="@color/SURFACE" />
+
+        <TextView
+            android:id="@+id/reserve_bottom_number"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_main"
+            android:gravity="center"
+
+            android:background="@drawable/sh04"
+            android:padding="10dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/reserve_bottom_sheet_button_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_add_24"
+            app:tint="@color/SURFACE"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/sh03"
+            android:padding="3dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/reserve_bottom_sheet_text_setstarting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Starting date "
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:id="@+id/reserve_bottom_sheet_text_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/blue_main"
+            android:textSize="16dp"
+            android:text="Here"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/reserve_bottom_sheet_done"
+           android:text="Done"
+           android:layout_marginTop="40dp"
+           android:layout_marginBottom="20dp"
+           android:layout_gravity="center_horizontal"
+           />
+
+
+
+
+
+
+
+</LinearLayout>

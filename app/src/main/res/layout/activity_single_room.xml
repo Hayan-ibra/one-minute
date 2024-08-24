@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotels.SingleRoomActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+    <ImageView
+        android:id="@+id/SingleRoomActivity_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/SingleRoomActivity_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 112 "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text=" price per day : "
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_attach_money_24"
+                android:drawableTint="#FFEB3B"
+                />
+            <TextView
+                android:id="@+id/SingleRoomActivity_text_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 $"
+                />
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="#817975F1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Room type  : "
+            android:textColor="@color/blue_main"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/baseline_location_city_24"
+            android:drawableTint="@color/blue_main"
+            />
+
+        <TextView
+            android:id="@+id/SingleRoomActivity_text_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cat1 ,cat2 ,cat3"
+            android:layout_gravity="center_vertical"
+
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Room Services : "
+            android:textColor="@color/blue_main"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/baseline_cleaning_services_24"
+            android:drawableTint="@color/blue_main"
+            />
+
+        <TextView
+            android:id="@+id/SingleRoomActivity_text_services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cat1 ,cat2 ,cat3"
+
+            android:textSize="16sp"
+            android:layout_marginBottom="40dp"
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SingleRoomActivity_bbutton_show_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show images"
+        android:backgroundTint="#007975F1"
+        android:textColor="@color/blue_main"
+        app:cornerRadius="10dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/blue_main"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SingleRoomActivity_button_reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resrve"
+        android:backgroundTint="@color/blue_main"
+
+        app:cornerRadius="10dp"
+
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        />
+
+
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,159 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.example.oneminute'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.oneminute"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation 'com.codesgood:justifiedtextview:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-firestore:24.11.1'
+    implementation 'com.google.firebase:firebase-storage:20.3.0'
+    implementation 'androidx.navigation:navigation-fragment:2.7.7'
+    implementation 'androidx.navigation:navigation-ui:2.7.7'
+    implementation'com.google.firebase:firebase-database'
+    //implementation 'com.google.firebase:firebase-database:21.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:32.8.1')
+
+    implementation'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-auth:22.3.1'
+
+    // TODO: Add the dependencies for Firebase products you want to use
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    // Swipe Refresh layout
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation "androidx.palette:palette:1.0.0"
+
+
+
+    def lifecycle_version = "2.3.1"
+    def arch_version = "2.2.0"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    // Lifecycles only (without ViewModel or LiveData)
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+
+    // Saved state module for ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+
+    // Annotation processor
+   // annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    // alternately - if using Java8, use the following instead of lifecycle-compiler
+   // implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+
+    // optional - helpers for implementing LifecycleOwner in a Service
+   // implementation "androidx.lifecycle:lifecycle-service:$lifecycle_version"
+
+    // optional - ProcessLifecycleOwner provides a lifecycle for the whole application process
+    //implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
+
+    // optional - ReactiveStreams support for LiveData
+    //implementation "androidx.lifecycle:lifecycle-reactivestreams:$lifecycle_version"
+
+    // optional - Test helpers for LiveData
+   // testImplementation "androidx.arch.core:core-testing:$arch_version"
+
+    // optional - Test helpers for Lifecycle runtime
+  // testImplementation "androidx.lifecycle:lifecycle-runtime-testing:$lifecycle_version"
+
+
+
+    // Lifecycle components
+    //implementation "androidx.lifecycle:lifecycle-viewmodel:$rootProject.lifecycleVersion"
+   // implementation "androidx.lifecycle:lifecycle-livedata:$rootProject.lifecycleVersion"
+   // implementation "androidx.lifecycle:lifecycle-common-java8:$rootProject.lifecycleVersion"
+
+
+/*
+    def work_version = "2.7.1"
+
+    // (Java only)
+    implementation "androidx.work:work-runtime:$work_version"
+
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+
+    // optional - RxJava2 support
+    implementation "androidx.work:work-rxjava2:$work_version"
+
+    // optional - GCMNetworkManager support
+    implementation "androidx.work:work-gcm:$work_version"
+
+    // optional - Test helpers
+    androidTestImplementation "androidx.work:work-testing:$work_version"
+
+    // optional - Multiprocess support
+
+    implementation "androidx.work:work-multiprocess:$work_version"
+*/
+
+
+    // Add the dependencies for any other desired Fire base products
+    // https://firebase.google.com/docs/android/setup#available-libraries
+    // implementation 'androidx.appcompat:appcompat:1.6.1'
+    //    implementation 'com.google.android.material:material:1.11.0'
+    //    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    //    implementation 'com.google.firebase:firebase-firestore:24.11.1'
+    //    implementation 'com.google.firebase:firebase-auth:22.3.1'
+    //    implementation 'com.google.firebase:firebase-storage:20.3.0'
+    //    testImplementation 'junit:junit:4.13.2'
+    //    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    //    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //
+    //    // Import the Firebase BoM
+    //    implementation platform('com.google.firebase:firebase-bom:32.8.1')
+    //
+    //
+    //    implementation'com.google.firebase:firebase-auth'
+    //
+    //
+    //    // When using the BoM, don't specify versions in Firebase dependencies
+    //    implementation 'com.google.firebase:firebase-analytics'
+    //
+    //    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    //
+    //
+    //    // Add the dependencies for any other desired Firebase products
+    //    // https://firebase.google.com/docs/android/setup#available-libraries
+}

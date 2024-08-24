@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+
+
+    >
+    <group
+        android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/baseline_hotel_24"
+            android:title="Hotels"
+            />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/baseline_restaurant_menu_24"
+            android:title="Restaurants"
+            />
+        <item
+            android:id="@+id/nav_tourism"
+            android:icon="@drawable/tourist"
+            android:title="Tourism"
+            />
+        <item
+            android:id="@+id/nav_stores"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:title="Shopping"
+            />
+
+
+    </group>
+
+    <item
+        android:title=""
+
+        >
+        <menu>
+            <item
+                android:id="@+id/history"
+                android:icon="@drawable/baseline_history_24"
+                android:title="History"/>
+            <item
+                android:id="@+id/nav_reservations"
+                android:icon="@drawable/baseline_location_city_24"
+                android:title="Reservations"
+
+                />
+            <item
+                android:id="@+id/nav_orders"
+                android:icon="@drawable/food"
+                android:title="My orders"
+
+                />
+
+            <item
+                android:id="@+id/nav_add_points"
+                android:icon="@drawable/baseline_add_24"
+                android:title="Add Points"
+                />
+            <item
+                android:id="@+id/nav_add_sign_out"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Log out"
+                />
+
+
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

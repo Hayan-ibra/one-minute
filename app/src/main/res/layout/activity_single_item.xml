@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".shopping.SingleItemActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+
+    <ImageView
+        android:id="@+id/SingleItemActivity_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+
+
+        />
+
+        <TextView
+            android:id="@+id/SingleItemActivity_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/blue_main"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            />
+        <LinearLayout
+            android:id="@+id/SingleItemActivity_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="15dp"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop name : "
+                android:textColor="@color/blue_main"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/SingleItemActivity_text_shopname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="122dsadsasad"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            >
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available quantity : "
+            android:textColor="@color/blue_main"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            />
+            <TextView
+                android:id="@+id/SingleItemActivity_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="122dsadsasad"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="15dp"
+            > <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catigories : "
+            android:textColor="@color/blue_main"
+            android:textSize="16sp"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+            <TextView
+                android:id="@+id/SingleItemActivity_text_catigories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cat1 ,cat2 ,cat3"
+
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                /></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genders : "
+            android:textColor="@color/blue_main"
+            android:textSize="16sp"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/SingleItemActivity_text_genders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cat1 ,cat2 ,cat3"
+            android:layout_gravity="center_vertical"
+
+            android:textSize="16sp"
+
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="15dp"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price : "
+                android:textColor="@color/blue_main"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/SingleItemActivity_text_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="122dsadsasad"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/SingleItemActivity_button_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Item"
+            app:cornerRadius="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="80dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

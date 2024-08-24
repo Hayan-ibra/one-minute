@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/reservation_item_text_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hotel : sdas"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_main"
+            android:text="Room :"
+            android:layout_marginStart="15dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+            <TextView
+                android:id="@+id/reservation_item_text_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:layout_marginStart="15dp"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue_main"
+                android:text="Starts at :"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/reservation_item_text_starting_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 june 2024"
+                android:layout_marginStart="15dp"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue_main"
+                android:text="Endins at :"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/reservation_item_text_ending_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17 june 2024"
+                android:layout_marginStart="15dp"
+                android:textSize="14sp"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

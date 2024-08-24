@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".shopping.SingleStoreActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+
+        <ImageView
+            android:id="@+id/SingleStoreActivity_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+
+
+            />
+
+        <TextView
+            android:id="@+id/SingleStoreActivity_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/blue_main"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:drawableStart="@drawable/baseline_article_24"
+            android:drawablePadding="7dp"
+            android:drawableTint="@color/blue_main"
+            />
+
+
+        <TextView
+            android:id="@+id/SingleStoreActivity_text_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="location"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/baseline_location_on_24_blue"
+            android:drawablePadding="7dp"
+            />
+        <TextView
+            android:id="@+id/SingleStoreActivity_text_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone number"
+            android:paddingEnd="80dp"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/baseline_call_24"
+            android:drawablePadding="7dp"
+            />
+
+        <TextView
+            android:id="@+id/SingleStoreActivity_text_work_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="work time  :"
+
+            android:textSize="16sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/baseline_access_time_24_blue"
+            android:drawablePadding="7dp"
+
+            />
+
+        <TextView
+            android:id="@+id/SingleStoreActivity_text_catigories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/baseline_filter_list_24"
+            android:drawablePadding="7dp"
+            android:drawableTint="@color/blue_main"
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/SingleStoreActivity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="70dp"
+            android:text="Show Items"
+            app:cornerRadius="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
