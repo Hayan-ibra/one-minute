@@ -5,7 +5,6 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,7 +14,6 @@ import com.example.oneminute.R;
 import com.example.oneminute.models.pager.PagerProperties;
 import com.example.oneminute.models.pager.StoreUtils;
 import com.example.oneminute.shopping.adapters.ShopFragAdapter;
-import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -101,38 +99,38 @@ public class Shopping_fragment extends Fragment {
         list01.add(new PagerProperties("shorts",R.drawable.shirt));
         list01.add(new PagerProperties("bottoms",R.drawable.shirt));
         list01.add(new PagerProperties("sportwear",R.drawable.shirt));
-        utils.add(new StoreUtils("Clothing", "clothing",list01,R.drawable.shirt));
+        utils.add(new StoreUtils("Clothing", "clothing",list01,R.drawable.shirt,R.drawable.clothing));
 
         List<PagerProperties> list02 =new ArrayList<>();
         list02.add(new PagerProperties("jewelry",R.drawable.jewerly));
         list02.add(new PagerProperties("watches",R.drawable.jewerly));
         list02.add(new PagerProperties("bags",R.drawable.jewerly));
-        utils.add(new StoreUtils("Accessories","accessories",list02,R.drawable.jewerly));
+        utils.add(new StoreUtils("Accessories","accessories",list02,R.drawable.jewerly,R.drawable.accessories));
 
 
         List<PagerProperties> list04=new ArrayList<>();
-        list04.add(new PagerProperties("outerwear",R.drawable.seasonal));
-        list04.add(new PagerProperties("swimwear",R.drawable.seasonal));
-        list04.add(new PagerProperties("sleepwear",R.drawable.seasonal));
-        utils.add(new StoreUtils("Seasonal","seasonal",list04,R.drawable.seasonal));
+        list04.add(new PagerProperties("outerwear",R.drawable.seasonalimg));
+        list04.add(new PagerProperties("swimwear",R.drawable.seasonalimg));
+        list04.add(new PagerProperties("sleepwear",R.drawable.seasonalimg));
+        utils.add(new StoreUtils("Seasonal","seasonal",list04,R.drawable.seasonal,R.drawable.seasonalimg));
 
         List<PagerProperties> list05=new ArrayList<>();
         list05.add(new PagerProperties("workwear",R.drawable.formal));
         list05.add(new PagerProperties("formalwear",R.drawable.formal));
         list05.add(new PagerProperties("underwear",R.drawable.formal));
-        utils.add(new StoreUtils("Lifes tyle","lifestyle",list05,R.drawable.formal));
+        utils.add(new StoreUtils("Lifes tyle","lifestyle",list05,R.drawable.formal,R.drawable.lifestyle));
 
         List<PagerProperties> list06=new ArrayList<>();
         list06.add(new PagerProperties("smartwatch",R.drawable.smartwatch));
         list06.add(new PagerProperties("fitness",R.drawable.smartwatch));
         list06.add(new PagerProperties("trackers",R.drawable.smartwatch));
-        utils.add(new StoreUtils("Technology","technology",list06,R.drawable.smartwatch));
+        utils.add(new StoreUtils("Technology","technology",list06,R.drawable.smartwatch,R.drawable.technologyy));
 
         List<PagerProperties> list03=new ArrayList<>();
         list03.add(new PagerProperties("shoes",R.drawable.shoes));
         list03.add(new PagerProperties("boots",R.drawable.shoes));
         list03.add(new PagerProperties("sandals",R.drawable.shoes));
-        utils.add(new StoreUtils("Foot wear","footwear",list03,R.drawable.shoes));
+        utils.add(new StoreUtils("Foot wear","footwear",list03,R.drawable.shoes,R.drawable.footwear));
 
     }
 
