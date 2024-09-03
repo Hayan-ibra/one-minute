@@ -21,8 +21,7 @@
             android:id="@+id/SingleHotelActivity_collapsing_shopping"
             app:collapsedTitleTextColor="@color/white"
             app:titleCollapseMode="scale"
-            app:expandedTitleTextColor="@color/blue_main"
-            app:contentScrim="@color/blue_main"
+
             app:expandedTitleMarginStart="20dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
 
@@ -151,9 +150,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:drawableStart="@drawable/baseline_location_on_24"
-                        android:drawableTint="@color/blue_main"
+
                         android:text=" Location : "
-                        android:textColor="@color/blue_secondary"
+
                         android:textSize="15dp"
                         android:textStyle="bold"
 
@@ -182,9 +181,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:drawableStart="@drawable/baseline_phone_enabled_24"
-                        android:drawableTint="@color/blue_main"
+
                         android:text=" Phone : "
-                        android:textColor="@color/blue_secondary"
+
                         android:textSize="15dp"
                         android:textStyle="bold"
 
@@ -215,9 +214,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:drawableStart="@drawable/baseline_location_city_24"
-                        android:drawableTint="@color/blue_main"
+
                         android:text=" City : "
-                        android:textColor="@color/blue_secondary"
+
                         android:textSize="15dp"
                         android:textStyle="bold"
 

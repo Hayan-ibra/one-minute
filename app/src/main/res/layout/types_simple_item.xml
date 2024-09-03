@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:text="hello"
         android:gravity="center"
-        android:textColor="@color/blue_main"
+
         android:layout_gravity="center"
         android:padding="3dp"
         />

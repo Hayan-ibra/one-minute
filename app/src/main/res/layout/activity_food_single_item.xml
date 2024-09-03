@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="food food"
-                android:textColor="@color/blue_main"
+
                 android:textSize="28dp"
                 android:textStyle="bold"
                 android:layout_marginBottom="20dp"
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="40dp"
                 android:layout_gravity="center_vertical|end"
-                android:backgroundTint="@color/blue_main"
+
 
                 android:layout_marginEnd="20dp"
 
@@ -120,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="type"
-                android:textColor="@color/blue_main"
+
                 android:layout_marginStart="20dp"
                 android:textSize="18sp"
                 />
@@ -152,7 +152,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/lighter_accent"
+
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp"
 
@@ -172,7 +172,7 @@
                     android:layout_height="50dp"
 
                     android:layout_gravity="center_vertical"
-                    android:backgroundTint="@color/blue_main"
+
                     app:cardCornerRadius="40dp"
 
                     >
@@ -202,7 +202,8 @@
                     android:padding="5dp"
                     android:text="Price"
                     android:layout_margin="3dp"
-                    android:textColor="@color/blue_main" />
+
+               />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -211,7 +212,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/lighter_accent"
+
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp"
 
@@ -231,7 +232,7 @@
                         android:layout_height="50dp"
 
                         android:layout_gravity="center_vertical"
-                        android:backgroundTint="@color/blue_main"
+
                         app:cardCornerRadius="40dp"
 
                         >
@@ -260,14 +261,14 @@
                         android:padding="5dp"
                         android:text="Time"
                         android:layout_margin="3dp"
-                        android:textColor="@color/blue_main" />
+                        />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/card_res_food_single"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/lighter_accent"
+
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp"
 
@@ -287,7 +288,7 @@
                         android:layout_height="50dp"
 
                         android:layout_gravity="center_vertical"
-                        android:backgroundTint="@color/blue_main"
+
                         app:cardCornerRadius="40dp"
 
                         >
@@ -295,8 +296,7 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:src="@drawable/baseline_restaurant_menu_24_blue"
-                            android:layout_gravity="center"
+                           android:layout_gravity="center"
 
 
 
@@ -316,7 +316,7 @@
                         android:padding="5dp"
                         android:text="res"
                         android:layout_margin="3dp"
-                        android:textColor="@color/blue_main" />
+                        />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -351,10 +351,10 @@
 
                     android:text="Ingredients :"
                     android:textSize="24dp"
-                    android:drawableTint="@color/blue_main"
+
                     android:layout_marginStart="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/blue_main"
+
                     />
 
 
@@ -379,11 +379,11 @@
                     android:text="Description :"
                     android:layout_marginTop="15dp"
                     android:textSize="24dp"
-                    android:drawableTint="@color/blue_main"
+
                     android:layout_marginStart="15dp"
                     android:textStyle="bold"
                     android:drawablePadding="4dp"
-                    android:textColor="@color/blue_main"
+
                     />
 
 

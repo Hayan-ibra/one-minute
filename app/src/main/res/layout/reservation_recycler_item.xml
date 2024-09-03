@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/blue_main"
+
             android:text="Room :"
             android:layout_marginStart="15dp"
             android:textStyle="bold"
@@ -54,7 +54,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/blue_main"
+
                 android:text="Starts at :"
                 android:layout_marginStart="15dp"
                 android:textStyle="bold"
@@ -80,7 +80,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/blue_main"
+
                 android:text="Endins at :"
                 android:layout_marginStart="15dp"
                 android:textStyle="bold"

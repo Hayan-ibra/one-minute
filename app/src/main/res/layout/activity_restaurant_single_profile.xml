@@ -21,8 +21,7 @@
             android:id="@+id/collapsing_restaurants_single"
             app:collapsedTitleTextColor="@color/white"
             app:titleCollapseMode="scale"
-            app:expandedTitleTextColor="@color/blue_main"
-            app:contentScrim="@color/blue_main"
+
             app:expandedTitleMarginStart="20dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
 
@@ -91,7 +90,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/lighter_accent"
+
 
 
                 >
@@ -109,7 +108,7 @@
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/baseline_access_time_24_blue"
+
                             />
                         <TextView
                             android:layout_width="wrap_content"
@@ -118,7 +117,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginStart="5dp"
                             android:textStyle="bold"
-                            android:textColor="@color/blue_main"
+
                             android:textSize="16sp"
                             />
                         <TextView
@@ -152,7 +151,6 @@
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/baseline_location_on_24_blue"
                             />
                         <TextView
                             android:layout_width="wrap_content"
@@ -161,7 +159,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginStart="5dp"
                             android:textStyle="bold"
-                            android:textColor="@color/blue_main"
+
                             android:textSize="16sp"
                             />
                         <TextView
@@ -198,7 +196,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginStart="5dp"
                             android:textStyle="bold"
-                            android:textColor="@color/blue_main"
+
                             android:textSize="16sp"
                             />
                         <TextView
@@ -237,7 +235,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Available Dishes : "
-                android:textColor="@color/blue_main"
+
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginStart="15dp"

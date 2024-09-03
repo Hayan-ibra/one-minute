@@ -81,7 +81,7 @@
         android:id="@+id/button_signin_signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/blue_accent"
+
         android:text="Sign In"
         android:layout_marginStart="10dp"
 
@@ -104,7 +104,7 @@
         android:layout_marginEnd="10dp"
 
 
-        android:textColor="@color/blue_main"
+
 
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
@@ -113,7 +113,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
         app:layout_constraintVertical_bias="0.224"
-        app:strokeColor="@color/blue_main"
+
         app:strokeWidth="1dp" />
 
     <LinearLayout
@@ -171,7 +171,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dont Have Account ? "
-            android:textColor="@color/blue_main"
+
             android:textSize="18sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -181,7 +181,7 @@
             android:layout_marginStart="-20dp"
             android:backgroundTint="#000A459E"
             android:text="Sign Up"
-            android:textColor="@color/blue_main"
+
             android:textSize="20sp"
             app:cornerRadius="10dp"
             app:strokeWidth="0dp"

@@ -40,7 +40,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@color/blue_main"
+
+
                 />
 
         </androidx.cardview.widget.CardView>
@@ -63,11 +64,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="location"
-            android:drawableStart="@drawable/baseline_location_on_24_blue"
-            android:drawableTint="@color/blue_main"
+            android:drawablePadding="5dp"
+
+            android:drawableStart="@drawable/baseline_location_on_24"
+            android:drawableTint="@color/seconadary"
+
             android:gravity="center_vertical"
             android:layout_marginStart="15dp"
-            android:layout_marginBottom="4dp"
             />
         <TextView
             android:id="@+id/tourist_destination_text_city"
@@ -76,7 +79,9 @@
             android:gravity="center_vertical"
             android:text="0943527822"
             android:drawableStart="@drawable/baseline_location_city_24"
-            android:drawableTint="@color/blue_main"
+
+            android:drawableTint="@color/seconadary"
+            android:drawablePadding="5dp"
             android:layout_marginStart="15dp"
 
 
@@ -111,7 +116,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_access_time_24_blue"
+
                     android:layout_gravity="center_vertical"
                     />
 
@@ -142,10 +147,8 @@
                 android:layout_height="wrap_content"
                 android:text="Show more"
                 app:cornerRadius="10dp"
-                app:strokeColor="@color/blue_main"
-                android:textColor="@color/blue_main"
-                app:strokeWidth="1dp"
-                android:backgroundTint="#00759EF1"
+
+
                 android:layout_gravity="end"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="5dp"

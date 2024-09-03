@@ -99,7 +99,7 @@ public class TypesAdapter extends RecyclerView.Adapter<TypesAdapter.VH> {
 
 
         holder.cardView.setCardBackgroundColor(Color.WHITE);
-        int colorInt = Color.parseColor("#0d5dc8");
+        int colorInt = Color.parseColor("#7A58AA");
         holder.img.setColorFilter(colorInt);
 
 
@@ -110,7 +110,7 @@ public class TypesAdapter extends RecyclerView.Adapter<TypesAdapter.VH> {
 
 
             holder.img.setColorFilter(Color.WHITE);
-            int colorInt2 = Color.parseColor("#0d5dc8");
+            int colorInt2 = Color.parseColor("#7A58AA");
             holder.cardView.setCardBackgroundColor(colorInt2);
 
 

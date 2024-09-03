@@ -7,7 +7,7 @@
         android:id="@+id/menu_my_orders"
         android:title="My orders"
         android:icon="@drawable/baseline_restaurant_menu_24"
-        android:iconTint="@color/blue_main"
+
         app:showAsAction="never"
         />
     </group>

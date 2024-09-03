@@ -32,13 +32,17 @@
             android:id="@+id/tollbar"
 
 
+            style="@style/ThemeOverlay.AppCompat.Light"
+
 
             app:titleTextColor="@color/white"
             android:elevation="4dp"
-            android:background="@color/blue_main"
+            android:background="@color/primary"
+
 
 
             />
+
 
 
 
@@ -86,8 +90,7 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"
-        app:itemIconTint="@color/blue_main"
-        app:itemTextColor="@color/blue_main"
+
         />
 
 

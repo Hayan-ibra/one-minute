@@ -75,7 +75,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.VH> {
     @Override
     public void onBindViewHolder(@NonNull VH holder, int position) {
         Food food=foods.get(position);
-        holder.tv_name.setText(food.getName());
+        holder.tv_name.setText(food.getName().trim());
 
         //using glide
         Glide.with(context).load(food.getFoodUrl()).fitCenter().into(holder.image);

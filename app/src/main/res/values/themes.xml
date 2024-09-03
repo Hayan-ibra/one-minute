@@ -7,14 +7,17 @@
 
 
 
-        <item name="colorPrimary">@color/blue_main</item>
-        <item name="colorSecondary">@color/blue_secondary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/seconadary</item>
+        <item name="colorPrimaryVariant">@color/primary_Variant</item>
+        <item name="colorSecondaryVariant">@color/secondary_VARIANT</item>
+        <item name="colorSurface">@color/SURFACE</item>
+        <item name="colorAccent">@color/seconadary</item>
+        <item name="background">@color/BACKGROUND</item>
 
 
+        <item name="android:fontFamily">@font/times</item>
 
-        <item name="android:textColorPrimary">@color/blue_main</item>
-        <item name="colorAccent">@color/blue_accent</item>
-        <item name="background">@color/lighter_accent</item>
 
 
 

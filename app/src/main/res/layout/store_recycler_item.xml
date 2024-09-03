@@ -33,7 +33,7 @@
             android:textColor="@color/white"
             android:textSize="16sp"
             android:layout_margin="3dp"
-            android:drawableTint="@color/lighter_accent"
+
             android:layout_gravity="center_horizontal"
             />
     </com.google.android.material.card.MaterialCardView>

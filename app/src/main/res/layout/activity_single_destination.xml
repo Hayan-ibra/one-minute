@@ -18,7 +18,7 @@
             app:expandedTitleTextColor="#007975F1"
 
             app:titleCollapseMode="scale"
-            app:contentScrim="@color/blue_main"
+
             app:expandedTitleMarginStart="20dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             >

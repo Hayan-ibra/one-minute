@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
-        android:textColor="@color/blue_main"
+
         android:textStyle="bold"
         android:text="please Choose quantity :"
         android:layout_gravity="center_horizontal"
@@ -41,7 +41,7 @@
             android:text="1"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/blue_main"
+
             android:gravity="center"
 
             android:background="@drawable/sh04"
@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
-        android:textColor="@color/blue_main"
+
 
         android:text="ssss $"
         android:layout_gravity="center_horizontal"
@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Write notes if you have : "
-            android:textColor="@color/blue_main"
+
             />
         <EditText
             android:id="@+id/bottom_order_edittext_notes"
@@ -105,7 +105,7 @@
         android:layout_width="70dp"
         android:layout_height="40dp"
         app:cardCornerRadius="10dp"
-        android:backgroundTint="@color/blue_main"
+
         android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
         android:layout_marginBottom="50dp"

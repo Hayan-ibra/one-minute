@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="10dp"
-    android:layout_margin="20dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="15dp"
     >
 
     <LinearLayout
@@ -13,10 +13,11 @@
         android:orientation="vertical">
 
 
-        <ImageView
+        <com.example.oneminute.tourism.my_image_view.DynamicImageView
             android:id="@+id/imageView_item_recycler_food"
             android:layout_width="match_parent"
             android:layout_height="120dp"
+
             android:scaleType="centerCrop"
             android:src="@drawable/baseline_add_24"
             />
@@ -28,6 +29,7 @@
             android:gravity="center"
             android:padding="2dp"
             android:text="TextView"
+
 
             android:textSize="18sp" />
 

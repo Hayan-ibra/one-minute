@@ -29,13 +29,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textColor="@color/blue_main"
+
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_margin="15dp"
             android:drawableStart="@drawable/baseline_article_24"
             android:drawablePadding="7dp"
-            android:drawableTint="@color/blue_main"
+
             />
 
 
@@ -47,7 +47,7 @@
             android:layout_marginStart="15dp"
             android:textSize="16sp"
             android:layout_marginBottom="5dp"
-            android:drawableStart="@drawable/baseline_location_on_24_blue"
+            android:drawableStart="@drawable/baseline_location_on_24"
             android:drawablePadding="7dp"
             />
         <TextView
@@ -72,7 +72,7 @@
             android:textSize="16sp"
             android:layout_marginStart="15dp"
             android:layout_marginBottom="5dp"
-            android:drawableStart="@drawable/baseline_access_time_24_blue"
+            android:drawableStart="@drawable/baseline_access_time_24"
             android:drawablePadding="7dp"
 
             />
@@ -86,7 +86,7 @@
             android:textSize="16sp"
             android:drawableStart="@drawable/baseline_filter_list_24"
             android:drawablePadding="7dp"
-            android:drawableTint="@color/blue_main"
+
             />
 
 

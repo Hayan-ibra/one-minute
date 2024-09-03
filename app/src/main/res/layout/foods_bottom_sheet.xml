@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:text="Please Enter Your Rate : "
                     android:textSize="18sp"
-                    android:textColor="@color/blue_main"
+
                     android:textStyle="bold"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
@@ -54,7 +54,7 @@
                         android:text="Submit"
                         android:layout_gravity="center"
 
-                        android:backgroundTint="@color/blue_main"
+
 
                         android:layout_marginTop="40dp"
                         android:layout_marginBottom="20dp"

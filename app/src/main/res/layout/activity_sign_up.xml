@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/baseline_person_24"
                 android:drawablePadding="10dp"
-                android:drawableTint="@color/blue_main"
+
                 android:hint="Email"
                 android:inputType="text"
 
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/baseline_lock_24"
                 android:drawablePadding="10dp"
-                android:drawableTint="@color/blue_main"
+
                 android:hint="Password"
                 android:imeOptions="actionNext"
                 android:inputType="textPassword"
@@ -95,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/baseline_drive_file_rename_outline_24"
                 android:drawablePadding="10dp"
-                android:drawableTint="@color/blue_main"
+
                 android:hint="User Name"
                 android:imeOptions="actionNext"
                 android:inputType="text"
@@ -120,7 +120,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/baseline_phone_enabled_24"
                 android:drawablePadding="10dp"
-                android:drawableTint="@color/blue_main"
+
                 android:hint="Phone number"
                 android:inputType="phone"
                 android:imeOptions="actionDone"
@@ -152,7 +152,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:text="Select your gender : "
-            android:textColor="@color/blue_main"
+
 
             android:layout_margin="10dp"
             android:textSize="19dp"
@@ -182,13 +182,13 @@
 
                 android:layout_width="89dp"
                 android:layout_height="wrap_content"
-                android:drawableTint="@color/blue_main"
+
                 android:gravity="center_vertical"
                 android:text="Male"
-                android:textColor="@color/blue_secondary"
+
                 android:textSize="14sp"
 
-                app:buttonTint="@color/blue_main"
+
                 tools:layout_editor_absoluteX="54dp"
                 tools:layout_editor_absoluteY="435dp" />
 
@@ -197,12 +197,12 @@
                 android:id="@+id/radiobutton_female_signup"
                 android:layout_width="95dp"
                 android:layout_height="wrap_content"
-                android:drawableTint="@color/blue_main"
+
                 android:gravity="center_vertical"
                 android:text="Female"
-                android:textColor="@color/blue_secondary"
+
                 android:textSize="14sp"
-                app:buttonTint="@color/blue_main"
+
                 tools:layout_editor_absoluteX="54dp"
                 tools:layout_editor_absoluteY="435dp" />
 
@@ -216,7 +216,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="90dp"
-        app:cardBackgroundColor="@color/lighter_accent"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Room type  : "
-            android:textColor="@color/blue_main"
+
             android:textSize="16sp"
             android:textStyle="bold"
             android:gravity="center_vertical"
@@ -95,7 +95,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:drawableStart="@drawable/baseline_location_city_24"
-            android:drawableTint="@color/blue_main"
+
             />
 
         <TextView
@@ -118,13 +118,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Room Services : "
-            android:textColor="@color/blue_main"
+
             android:textSize="16sp"
             android:textStyle="bold"
             android:layout_marginStart="15dp"
             android:gravity="center_vertical"
             android:drawableStart="@drawable/baseline_cleaning_services_24"
-            android:drawableTint="@color/blue_main"
+
             />
 
         <TextView
@@ -150,10 +150,10 @@
         android:layout_height="wrap_content"
         android:text="show images"
         android:backgroundTint="#007975F1"
-        android:textColor="@color/blue_main"
+
         app:cornerRadius="10dp"
         app:strokeWidth="1dp"
-        app:strokeColor="@color/blue_main"
+
         android:layout_gravity="bottom|start"
         android:layout_marginBottom="30dp"
         android:layout_marginStart="30dp"
@@ -164,7 +164,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resrve"
-        android:backgroundTint="@color/blue_main"
+
 
         app:cornerRadius="10dp"
 

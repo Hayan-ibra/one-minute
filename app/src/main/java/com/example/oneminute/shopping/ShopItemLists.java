@@ -110,7 +110,7 @@ public class ShopItemLists extends AppCompatActivity {
                 //it will be called when creating tab for the first time
                 if (position==0){
                     tab.setText("Stores");
-                    tab.setIcon(R.drawable.baseline_shopping_cart_blue_24);
+                    tab.setIcon(R.drawable.baseline_shopping_cart_24);
                 }else {
                     tab.setText(catigories.get(position - 1).getName());
                     tab.setIcon(catigories.get(position - 1).getIcon());
