@@ -1,8 +1,9 @@
-#One Minute 
+# One Minute 
 
-One Minute is my first ever app and it track my progress in coding designing , i developed it in my spare time using firebase.
-i started with restaurants section ending with shops and this how you can track my progress in clean code and designe.
-the app caters to every aspect of your daily needs:
+One Minute is my first ever app and it track my progress in coding and UI designing , i developed it at my spare time using firebase.
+starting with restaurants section ending with shops ,this how you can track my progress in clean code, designe and using architectural patterns like mvvm.
+
+the app cares to every aspect of your daily needs and cosist of four sections :
 
 Restaurants: Discover and order from a wide variety of restaurants and cuisines, right at your fingertips.
 Hotels: Browse and book hotels and rooms online, ensuring a comfortable stay wherever you go.
@@ -20,4 +21,4 @@ Screenshots :
 
 ![Screenshot_20240904-122158_One Minute](https://github.com/user-attachments/assets/35e2c42d-d6df-4f0f-9bed-f57c2e60fca9)
 
-hope you like it and ill be happy if you can give advice and code.
+hope you like it and i'll be happy if you can give advice and code.
